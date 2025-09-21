@@ -1,0 +1,8 @@
+pandas
+numpy
+string
+math
+scikit-learn
+nltk
+regex
+streamlit
