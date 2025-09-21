@@ -1,5 +1,6 @@
 # vectorizer.py
 
+import nltk
 import numpy as np
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import TfidfVectorizer as SklearnTfidfVectorizer
