@@ -3,6 +3,6 @@ numpy
 string
 math
 scikit-learn
-NLTK
+nltk
 regex
 streamlit
