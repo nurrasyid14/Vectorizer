@@ -12,7 +12,7 @@ import string
 import math
 
 class TF_IDF:
-    def __init__(self, max_features=None, ngram_range=(1, 1), stop_words='english'):
+    def __init__(self, max_features=None, ngram_range=(1, 1), stop_words=('english','indonesian')):
         self.vectorizer = SklearnTfidfVectorizer(
             max_features=max_features,
             ngram_range=ngram_range,
@@ -49,7 +49,7 @@ class TF_IDF:
 
 
 class BagofWords:
-    def __init__(self, max_features=None, ngram_range=(1, 1), stop_words='english'):
+    def __init__(self, max_features=None, ngram_range=(1, 1), stop_words=('english','indonesian')):
         self.vectorizer = SklearnCountVectorizer(
             max_features=max_features,
             ngram_range=ngram_range,
